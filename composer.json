@@ -1,0 +1,22 @@
+{
+    "name": "vladmihai/composer",
+    "description": "First packagist package",
+    "type": "package",
+    "require": {
+        "fzaninotto/faker": "^1.5",
+        "php": ">=5.3.0"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Vlad Mihai Maranduca",
+            "email": "vladmihai27@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "vladmihai\\composer\\": "src/"
+        }
+    }
+}
